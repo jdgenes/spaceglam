@@ -113,21 +113,35 @@
      .case {
       max-width: 55rem;
       padding: 0 0 4rem 0;
-      margin: 2rem auto 3rem auto;
-      background-image: url("../img/case.png");
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 60px;
+      margin: 3rem auto 3rem auto;
+      border: none;
+     }
+
+     .title {
+       color: white;
+     }
+
+     #screen {
+       margin: 1rem;
+       border-radius: 50px;
+       border-left: ridge;
+       border-right: groove;
+       border-top: ridge;
+       border-bottom: groove;
+       border-left-width: 12px;
+       border-right-width: 12px;
+       border-top-width: 30px;
+       border-bottom-width: 50px;
+       border-color: #c5c9ba;
+
+       /* padding: 1rem; */
      }
   
      .main-content {
        max-width: 53rem;
        margin: 2rem auto 3rem auto;
-       background: -o-radial-gradient(#fff, #e2e7d5);
-       background: radial-gradient(#fff, #e2e7d5);
+       background-color: #212529;
        border-radius: 10px;
-       border-width: 1px;
       }
 
       .filter-normalize {
